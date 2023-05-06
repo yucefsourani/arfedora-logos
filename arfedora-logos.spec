@@ -25,8 +25,10 @@ BuildRequires: hardlink
 BuildRequires: kde-filesystem
 # For generating the EFI icon
 BuildRequires: libicns-utils
+BuildRequires: make
 Requires(post): coreutils
-Requires: arfedora-logos
+Requires: arfedora-release
+
 
 %description
 The arfedora-logos package contains various image files which can be
