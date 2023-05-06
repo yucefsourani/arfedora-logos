@@ -20,7 +20,7 @@ Conflicts:  fedora-logos
 Conflicts:  generic-logos
 Conflicts:  anaconda-images <= 10
 Conflicts:  redhat-artwork <= 5.0.5
-BuildRequires: hardlink
+BuildRequires: util-linux-core
 # For _kde4_* macros:
 BuildRequires: kde-filesystem
 # For generating the EFI icon
