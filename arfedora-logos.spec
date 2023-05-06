@@ -92,7 +92,7 @@ install	-p -m 644 icons/Fedora/scalable/apps/* %{buildroot}%{_datadir}/icons/Fed
 (cd anaconda; make DESTDIR=%{buildroot} install)
 
 # save some dup'd icons
-/usr/bin/hardlink -v %{buildroot}/
+/usr/bin/hardlink  -v  %{buildroot}/
 
 %post
 touch --no-create %{_datadir}/icons/Fedora || :
